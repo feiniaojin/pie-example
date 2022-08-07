@@ -5,7 +5,6 @@ import com.feiniaojin.ddd.ecosystem.pie.example3.handlers.ArticleModifyContentHa
 import com.feiniaojin.ddd.ecosystem.pie.example3.handlers.ArticleModifyTitleHandler;
 import com.feiniaojin.ddd.ecosystem.pie.example3.handlers.CheckParameterHandler;
 import com.feiniaojin.ddd.ecosystem.pie.example3.handlers.ExceptionHandler;
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
