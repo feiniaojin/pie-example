@@ -13,7 +13,6 @@ public class ExceptionHandler extends ChannelHandlerAdapter {
 
     private Logger logger = LoggerFactory.getLogger(ExceptionHandler.class);
 
-
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx,
                                 Throwable cause,

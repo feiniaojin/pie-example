@@ -33,7 +33,7 @@ public class ArticleModifyExample3 {
                 .addChannelHandlerAtLast("checkParameter", new CheckParameterHandler())//第一个handler
                 .addChannelHandlerAtLast("modifyTitle", new ArticleModifyTitleHandler())//第二个handler
                 .addChannelHandlerAtLast("modifyContent", new ArticleModifyContentHandler())//第三个handler
-                .addChannelHandlerAtLast("exception", new ExceptionHandler())//第三个handler
+                .addChannelHandlerAtLast("exception", new ExceptionHandler())//异常处理handler
                 .process();//执行
         //result为执行结果
         logger.info("result:code={},msg={}", result.getCode(), result.getMsg());
